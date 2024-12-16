@@ -1,0 +1,13 @@
+.venv
+*.npy
+*.parquet
+.openml_cache
+*.egg-info
+__pycache__
+*.zip
+
+# TODO: add/edit your venv folder name here (if you use venv)
+automl-tabular-env
+
+# allow predictions.npy to be uploaded and allow eval results to be saved here
+!data/exam_dataset/1/*.npy
